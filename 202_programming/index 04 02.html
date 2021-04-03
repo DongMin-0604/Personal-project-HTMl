@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>택스트 스타일</title>
+
+    <style>
+        .rgb_color {
+            color: #00ff00;
+
+            text-align: center;
+        }
+
+        .rgba_color {
+            color: rgba(0, 255, 0, 0.5);
+
+            text-align: right;
+        }
+
+        .height {
+            line-height: 24px;
+        }
+        .deco1{
+            text-decoration: line-through;
+        }
+        .deco2{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="rgb_color">rgb 값을 green으로 줌</p>
+    <p class="rgba_color">rgb 값에 투명도인 알파값 0.5를 줌</p>
+
+    <p style="text-align: justify;">양쪽 정렬을 해봅시다.</p>
+    <p>줄 간격을 지정하지 않았습니다.<br></p>
+    <p class="height">줄 간격을 24px로 지정하였습니다.
+        <br>줄 간격 확인해보기</p>
+    <p style="line-height: 250%;">% 단위를 사용해 줄 간격을 지정한 상태입니다.
+        <br>줄 간격 확인해보기
+        <br> 250%는 글자 크기의 2.5배 만큼 줄 간격을 준 것입니다.
+    </p>
+
+    <p style="line-height: 2.7;">단위가 없는 상태로 줄 간격을 지정해 준 것 입니다. 
+        <br>줄 간격 확인해보기 
+        <br> 글자 크기의 2.7배 만큼 줄 간격을 준 것 입니다.</p>
+
+</body>
+
+</html>

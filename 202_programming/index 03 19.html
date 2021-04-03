@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20208_회원가입</title>
+</head>
+<body>
+    <h1>회원 가입</h1>
+    <fieldset>
+        <legend>사용자 정보</legend>
+        <table>
+            <ui>
+                <li><label for="아이디">아이디<input type="text" id="아이디" placeholder="영문자 입력" autofocus></label></li>
+                <br>
+                <li><label for="이메일">이메일<input type="text" id="이메일" required/></label></li>
+                <br>
+                <li><label for="비밀번호">비밀번호<input type="text" id="비밀번호" placeholder="영문자,숫자,특수문자 사용 8글자 이상 입력"></label></li>
+                <br>
+                <li><label for="비밀번호 확인">비밀번호 확인<input type="text" id="비밀번호 확인"></label></li>
+                
+                
+                
+            </ui>
+        </table>
+
+    </fieldset>
+    <fieldset>
+        <legend>이벤트와 새로운 소식</legend>
+        <p><input type="radio" name="ss">매일 수신</p>
+        <p><input type="radio" name="ss">수신 안함</p>
+    </fieldset>
+
+    <input type="submit" value="가입하기">
+    <input type="button" value="취소">
+</body>
+</html>

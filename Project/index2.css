@@ -1,0 +1,89 @@
+header{height: 75px; background-color: black; border: 1px solid black;
+position: fixed;width: 100%; z-index: 9999; top: 0; left: 0;}
+*{margin: 0; padding: 0;}
+body{
+    background-color: darkcyan;
+}
+
+.logo{
+    line-height: 38px; 
+    float: left;
+}
+.topmenu{
+    float: left;
+}
+.topmenu li{
+    float: left;
+    border-bottom: none; 
+    list-style: none;
+}
+.topmenu a{
+    line-height: 39px;
+    color: white;
+    padding: 15px 16px;
+    display: block; 
+    text-decoration: none;}
+
+.divHeader{
+    width: 1170px; 
+    margin: 0 auto;
+}
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.background{
+     float: left; 
+     position: fixed;
+    }
+.backgroundp{ 
+    float: left; 
+    position: fixed; 
+    top: 75px; 
+    left: 0;
+}
+.backgroundp2{ 
+    position: relative;
+    top: 110px; width: 100%;
+    display: block;
+    margin: 0 auto; border: 
+    2px solid white;
+}
+.title{
+    position: relative; 
+    top: 100px; display: block; 
+    margin: 0 auto;
+}
+
+.startbutton{
+    height: 200px; 
+    width: 200px; 
+    top: -100px; position: relative;
+    display: block; 
+    margin: 0 auto;
+ }
+.start{height: 380px;
+    background-color: darkslategray; 
+    top: 110px; width: 1901px; left: 0;
+    clear: both; 
+    border: 1px solid orangered;
+}
+.info1{
+    float: left;
+    height: 270px; 
+    width: 350px; 
+    margin: 15px; 
+    top: -100px; 
+    position: relative;
+}
+.info2{float: right; height: 270px; width: 350px; margin: 15px; top: -100px; position: relative;}
+.imgset{margin: 100px; padding: 0 15px; margin-left: 20px; margin-right: 20px;}
+
+.bodyV{height: 800px; width: 1901px; background-color: whitesmoke;position: relative; top: 92px; clear: both;}
+
+
+
+.end{height: 600px; width: 1901px; background-color: black; position: relative; top: 92px;}
+

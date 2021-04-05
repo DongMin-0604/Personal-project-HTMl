@@ -89,6 +89,7 @@ body{
 **그래서 완성된 모습은 이렇습니다**
 
 
+![상단바 완성](https://user-images.githubusercontent.com/81551462/113558664-09684f80-963b-11eb-9819-0fa32ba78180.PNG)
 
 
 

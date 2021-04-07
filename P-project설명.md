@@ -80,3 +80,5 @@ header{height: 40px; background-color: black; border: 1px solid black;
 3.먼 미래 이야기
 
 ## 목표 사이트
+![하스스톤 목표](https://user-images.githubusercontent.com/81551462/113829431-748f5e80-97c0-11eb-9b6d-4ee5a157b980.PNG)
+

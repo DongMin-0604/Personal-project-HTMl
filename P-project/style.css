@@ -1,0 +1,68 @@
+header{height: 40px; background-color: black; border: 1px solid black;
+    position: fixed;width: 100%; z-index: 9999; top: 0; left: 0;}
+    *{margin: 0; padding: 0;}
+
+    body{
+        background-color: #721A19;
+    }.logo{
+        line-height: 75px; 
+        float: left;
+        margin-top: 3px;
+    }
+    .topmenu{
+        float: left;
+    }
+    .submenu1{
+        position: absolute;
+        background-color: #222222;
+        opacity: 0;
+        visibility: hidden;
+        
+    }
+    .submenu1 li{
+        list-style-type: none;
+        font-weight: lighter;
+        font-size: 0.75rem;
+        
+    }
+    .submenu1 >li >a{
+        border-bottom: 1px solid rgba(0, 0, 0,0.15);
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        letter-spacing: 0.05em;
+        padding: 12px 12px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0,0.2);
+    }
+    .topmenu > li{
+        font-size: 13px;
+        font-weight: lighter;
+        float: left;
+        list-style: none;
+
+    }
+    .topmenu > li > a{
+        line-height: 11px;
+        color: white;
+        padding: 15px 16px;
+        display: block; 
+        text-decoration: none;
+        border-right: 1px solid rgba(200,200,200,0.16);}
+    .topmenu > li:nth-child(1)>a{
+        border-left: 1px solid rgba(200,200,200,0.16);
+    }
+    
+    .divHeader{
+        width: 1170px; 
+        margin: 0 30px;
+    }
+    .topmenu > li:hover .submenu1{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .top-info{
+        background-color: #562C13;
+        height: 27rem;
+        width: 100%;
+    }

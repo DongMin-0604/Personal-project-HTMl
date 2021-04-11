@@ -82,3 +82,34 @@ header{height: 40px; background-color: black; border: 1px solid black;
 ## 목표 사이트
 ![하스스톤 목표](https://user-images.githubusercontent.com/81551462/113829431-748f5e80-97c0-11eb-9b6d-4ee5a157b980.PNG)
 
+***
+
+## 개인 프로젝트
+
++ 고등학생의 안드로이드 독학 노트
+
+**하스스톤 카드 설명 페이지 따라만들기**
+***
+
+상단 메뉴 드롭다운 메뉴로 만들고 
+본문 스타일을 설계하였습니다.
+
+주요 코드 
+```HTMl
+                <ul class="topmenu">
+                    <li><a href="#" 
+                        onmouseover="this.innerHTML='게임 ∧'"
+                        onmouseout="this.innerHTML='게임 ∨'" >
+                        게임 ∨
+                    </a>
+                        <ul class="submenu1">
+                            <li><a href="" style="color: #C4A13B;">마왕잡는매니저</a></li>
+                            <li><a href="" style="color: #C4A13B;">submenu</a></li>
+                        </ul>
+                    </li>
+```
+드롭 다운 메뉴 핵심코드입니다. 이거 하느라 3시간? 정도 찾은 것 같은데 
+JS문법을 이용하였습니다.
+
+**적용화면
+

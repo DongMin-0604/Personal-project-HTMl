@@ -1,172 +1,90 @@
-header{height: 40px; background-color: black; border: 1px solid black;
-    position: fixed;width: 100%; z-index: 9999; top: 0; left: 0;}
-    *{margin: 0; padding: 0;}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>영웅 - 마왕잡는 매니저</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&display=swap');
+        .top_infoT{
+            text-align: center;         
+            font-weight: bolder;
+            font-family: 'Song Myung', serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="divHeader" style="z-index: 8888;">
+            <a href="#"><img class="logo" src="C:\Users\mythe\Desktop\1학기 프로그래밍 웹\HTMl\개인 프로젝트\img\마왕잡는 매니저.png" style="height: 40px; width: 100px;"></a>
+            <nav>
+                <ul class="topmenu">
+                    <li><a href="#" 
+                        onmouseover="this.innerHTML='게임 ∧'"
+                        onmouseout="this.innerHTML='게임 ∨'" >
+                        게임 ∨
+                    </a>
+                        <ul class="submenu1">
+                            <li><a href="" style="color: #C4A13B;">마왕잡는매니저</a></li>
+                            <li><a href="" style="color: #C4A13B;">submenu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">샵</a></li>
+                    <li><a href="">새소식</a></li>
+                    <li><a href="">E스포츠</a></li>
+                    <li><a href="">이벤트</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
 
-    body{
-        background-color: #721A19;
-        display: flex;
-    }.logo{
-        line-height: 75px; 
-        float: left;
-        margin-top: 3px;
-    }
-    .topmenu{
-        float: left;
-    }
-    .submenu1{
-        position: absolute;
-        background-color: #222222;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.15s ease-in;
-    }
-    /* .submenu1{
-        position: absolute;
-        background-color: #222222;
-        opacity: 0;
-        visibility: hidden;
-        
-     } */
-    .submenu1 li{
-        list-style-type: none;
-        font-weight: lighter;
-        font-size: 0.75rem;
-        border-bottom: 1px solid rgba(0, 0, 0,0.15);
-    }
-     /* .submenu1 li{
-        list-style-type: none;
-        font-weight: lighter;
-        font-size: 0.75rem;
-        
-    } */
-    .submenu1 >li >a{
-        text-align: center;
-        display: block;
-        text-decoration: none;
-        letter-spacing: 0.05em;
-        padding: 12px 12px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0,0.2);
-    }
-    /* .submenu1 >li >a{
-        border-bottom: 1px solid rgba(0, 0, 0,0.15);
-        text-align: center;
-        display: block;
-        text-decoration: none;
-        letter-spacing: 0.05em;
-        padding: 12px 12px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0,0.2);
-    }  */
-    .topmenu > li{
-        font-size: 13px;
-        font-weight: lighter;
-        float: left;
-        list-style: none;
+    <div class="top-info">
+        <div class="top-info-menu">  
+            <a href="#"><h1 class="top-info-h1">logo</h1></a>
+           <nav>
+                <ul class="bodymenu" >                   
+                    <li><a href="#">게임 </a>
+                        <ul class="info-sub-menu">
+                            <li><a href="">마왕잡는 매니저는 무엇인가요?</a> </li>
+                            <li><a href="">플레이 방법</a></li>
+                            <li><a href="">시너지 효과</a></li>
+                            <li><a href="">신동민 잘생겼다</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#">카드 </a>
+                        <ul class="info-sub-menu">
+                            <li><a href="">카드 종류</a></li>
+                            <li><a href="">전장</a></li>
+                            <li><a href="">카드 뒷면</a></li>
+                        </ul>
+                    </li>
 
-    }
-    .topmenu > li > a{
-        line-height: 11px;
-        color: white;
-        padding: 15px 16px;
-        display: block; 
-        text-decoration: none;
-        border-right: 1px solid rgba(200,200,200,0.16);
-    }
-    .topmenu > li:nth-child(1)>a{
-        border-left: 1px solid rgba(200,200,200,0.16);
-    }
-    
-    .divHeader{
-        width: 1170px; 
-        margin: 0 30px;
-    }
-    .topmenu > li:hover.submenu1{
-        opacity: 1;
-        visibility: visible;
-    }
-     /* .topmenu > li:hover.submenu1{
-        opacity: 1;
-        visibility: visible;
-    } */
-    .submenu1 >li >a:hover{
-        text-decoration: underline;
-    }
-    
-
-
-
-
-    .top-info{
-        height: 27rem;
-        width: 100%;
-        background-color: rgba(0,0,0,1);
-        margin: 44px auto;
-    }
-    .top-info-menu{    
-        background-color: brown;
-        height: 100px; width: 1920px; 
-        margin: 0 auto;
-        z-index: 10;
-        position: fixed;
-    }
-    .top-info-h1{
-        font-size: 2.7em;
-        line-height: 50px;
-        color: yellowgreen; display: block;
-        text-decoration: none;
-        padding: 15px 40px; 
-        margin-left: 100px;
-        float: left;
-    }
-    .bodymenu{
-        float: right;        
-    }
-    .bodymenu > li{
-        float: left; list-style: none; font-size: large;
-        font-family: 'Noto Serif KR', serif;
-        font-weight: bolder;
-        color: yellowgreen; 
-        padding: 30px 40px; display: block;
-        
-    }
-    .bodymenu > li > a{
-        text-decoration: none;
-        color: yellowgreen;
-    }
-
-    .bodymenu > li:after{
-        content: '\25BE';
-    }
-    .bodymenu > li:hover::after{
-        content: '\25B4';
-    }
-
-    
-     .info-sub-menu{
-         position: absolute;
-         background-color: red;
-         opacity: 0;
-         visibility: hidden;
-         transition: all 0.15s ease-in;
-     }
-   
-    .info-sub-menu > li{
-        list-style: none;
-        padding: 16px 28px;
-        border-bottom: 1px solid rgba(0, 0, 0,0.15);
-        font-weight: lighter;
-        font-size: 1em;
-    }
-
-    
-    .info-sub-menu > li > a{
-       color: greenyellow;
-       text-decoration: none;
-    }
-   
-    .bodymenu > li:hover.info-sub-menu{
-        opacity: 1;
-        visibility: visible;
-    }
-    .info-sub-menu > li > a:hover{
-        text-decoration: underline;
-    }
+                    <li><a href="#">커뮤니티</a>
+                        <ul class="info-sub-menu">
+                            <li><a href="">Q&A</a></li>
+                            <li><a href="">문의</a></li>
+                            <li><a href="">토론장</a></li>
+                        </ul>
+                    </li>
+                       
+                    <li><a href="#">새소식 </a>
+                        <ul class="info-sub-menu">
+                            <li><a href="">패치 노트</a></li>
+                            <li><a href="">이벤트</a></li>
+                            <li><a href="">개발자</a></li>
+                        </ul>
+                    </li>
+                    <li style=" margin-right: 500px; "><a href="#">E스포츠</a></li>                
+            </nav>                          
+        </div>
+        <div class="info-text" style="z-index: 9999;">
+            <h1 class="top_infoT" style="padding: 130px 0 30px 0; font-size: 3em;">마왕잡는 매니저의 영웅들</h1>
+            <p class="top_infoT" style="font-size: 1.3em;">마왕잡는 매니저에는 10가지의 다양한 직업이 존재하며<br></p>
+            <p class="top_infoT" style="font-size: 1.3em;">각기 고유 능력을 보유하고 있습니다.아래 설명을 참고하세요.<p>
+        </div>
+    </div>
+</body>
+</html>

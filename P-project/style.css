@@ -3,7 +3,8 @@ header{height: 40px; background-color: black; border: 1px solid black;
     *{margin: 0; padding: 0;}
 
     body{
-        background-color: #721A19;
+        background-color: #2C2401;
+        display: flex;
     }.logo{
         line-height: 75px; 
         float: left;
@@ -17,16 +18,20 @@ header{height: 40px; background-color: black; border: 1px solid black;
         background-color: #222222;
         opacity: 0;
         visibility: hidden;
-        
+        transition: all 0.15s ease-in;
     }
+    ul.topmenu > li ul.submenu {
+        display:none; position: absolute;
+    }
+
+    
     .submenu1 li{
         list-style-type: none;
         font-weight: lighter;
         font-size: 0.75rem;
-        
+        border-bottom: 1px solid rgba(0, 0, 0,0.15);
     }
     .submenu1 >li >a{
-        border-bottom: 1px solid rgba(0, 0, 0,0.15);
         text-align: center;
         display: block;
         text-decoration: none;
@@ -34,6 +39,14 @@ header{height: 40px; background-color: black; border: 1px solid black;
         padding: 12px 12px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0,0.2);
     }
+
+    .dropdown1 > a:after{
+        content: '\25BE';
+    }
+    .dropdown1 > a:hover::after{
+        content: '\25B4';
+    }
+    
     .topmenu > li{
         font-size: 13px;
         font-weight: lighter;
@@ -47,7 +60,8 @@ header{height: 40px; background-color: black; border: 1px solid black;
         padding: 15px 16px;
         display: block; 
         text-decoration: none;
-        border-right: 1px solid rgba(200,200,200,0.16);}
+        border-right: 1px solid rgba(200,200,200,0.16);
+    }
     .topmenu > li:nth-child(1)>a{
         border-left: 1px solid rgba(200,200,200,0.16);
     }
@@ -56,13 +70,89 @@ header{height: 40px; background-color: black; border: 1px solid black;
         width: 1170px; 
         margin: 0 30px;
     }
-    .topmenu > li:hover .submenu1{
+    .topmenu > li:hover ul.submenu1{
         opacity: 1;
         visibility: visible;
     }
-
+    .submenu1 >li >a:hover{
+        text-decoration: underline;
+    }
+    
     .top-info{
-        background-color: #562C13;
         height: 27rem;
         width: 100%;
+        background-color: brown;
+        margin: 44px auto;
+    }
+    .top-info-menu{    
+        border-bottom: 1px solid black;
+        background-color: brown;
+        height: 100px; width: 1920px; 
+        margin: 0 auto;
+        z-index: 10;
+        position: fixed;
+    }
+    .top-info-h1{
+        font-size: 2.7em;
+        line-height: 62px;
+        background: linear-gradient(to right, #01543E, #0FBEAC, #10C7B4);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+        text-decoration: none;
+        padding: 15px 40px; 
+        margin-left: 100px;
+        float: left;
+    }
+    .bodymenu{
+        float: right;        
+    }
+    .bodymenu > li{
+        float: left; list-style: none; font-size: large;
+        font-family: 'Noto Serif KR', serif;
+        font-weight: bolder;
+        padding: 30px 40px; display: block;
+        
+    }
+    .bodymenu > li > a{
+        text-decoration: none;
+        color: rgb(255, 204, 000);
+    }
+
+    .dropdown2 > a:after{
+        content: '\25BE';
+    }
+    .dropdown2 > a:hover:after{
+        content: '\25B4';
+    }
+
+    
+     .info-sub-menu{
+         position: absolute;
+         background-color:rgba(051, 051, 051,0.9);
+         opacity: 0;
+         visibility: hidden;
+         transition: all 0.15s ease-in;
+     }
+   
+    .info-sub-menu > li{
+        list-style: none;
+        padding: 16px 28px;
+        border-bottom: 1px solid rgba(0, 0, 0,0.15);
+        font-weight: lighter;
+        font-size: 0.75em;
+    }
+
+    
+    .info-sub-menu > li > a{
+       color: white;
+       text-decoration: none;
+    }
+   
+    .bodymenu > li:hover ul.info-sub-menu{
+        opacity: 1;
+        visibility: visible;
+    }
+    .info-sub-menu > li > a:hover{
+        text-decoration: underline;
     }

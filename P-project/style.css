@@ -165,9 +165,7 @@ header{height: 42px; background-color: black; border: 1px solid black;
         margin-top: 500px;
     }
     #contents table tr td img {
-        width: 170px;
-        height: 300px;
-        margin: 10px;
+        margin: 40px 100px;
         opacity: 1.0;
     }
     #contents table tr td img:hover {

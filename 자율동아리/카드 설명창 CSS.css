@@ -325,15 +325,16 @@ body.on {
     color: #fff;
 }
 
-/* #footer .sns li a .sns_btn {
-            display: inline-block;
-            width: 19px;
-            height: 19px;
-            background: #fff url(../img/footer/set_footer.png) no-repeat;
-            background-position: 0 -50px;
-            text-indent: -9999px;
-            padding-right: 10px;
-            } */
+#footer .sns li a .sns_btn {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: #fff url("../img/footer/set_footer.png") no-repeat;
+    background-position: 0 -50px;
+    text-indent: -9999px;
+    padding-right: 10px;
+}
+
 #footer .sns li a .twitter_btn {
     background-position: 0 -100px;
 }
@@ -409,17 +410,18 @@ body.on {
     color: #0077ff;
 }
 
-/* #footer .bottom_footer_inner .language > a:after {
-            content: "";
-            position: absolute;
-            right: 10px;
-            top: 5px;
-            width: 18px;
-            height: 18px;
-            background: #fff url(../img/footer/set_footer.png) no-repeat;
-            background-position: 0 -250px;
-            transition: all 0.5s;
-            } */
+#footer .bottom_footer_inner .language > a:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    background: #fff url("../img/footer/set_footer.png") no-repeat;
+    background-position: 0 -250px;
+    transition: all 0.5s;
+}
+
 #footer .bottom_footer_inner .language > a:hover:after {
     background-color: #0077ff;
 }
@@ -465,13 +467,13 @@ body.on {
     padding-bottom: 15px;
 }
 
-/* #footer .bottom_footer_inner > a .bottom_logo {
-            display: block;
-            text-indent: -9999px;
-            background: url(../img/footer/set_footer.png) no-repeat;
-            width: 68px;
-            height: 23px;
-            background-position: 0 0;
-            padding-bottom: 50px;
-            margin-top: 15px;
-            } */
+#footer .bottom_footer_inner > a .bottom_logo {
+    display: block;
+    text-indent: -9999px;
+    background: url("../img/footer/set_footer.png") no-repeat;
+    width: 68px;
+    height: 23px;
+    background-position: 0 0;
+    padding-bottom: 50px;
+    margin-top: 15px;
+}

@@ -1,0 +1,50 @@
+header{height: 75px; background-color: black; border: 1px solid black;
+position: fixed;width: 100%; z-index: 9999; top: 0; left: 0;}
+*{margin: 0; padding: 0;}
+body{background-color: darkcyan;}
+
+.logo{line-height: 38px; float: left;}
+.topmenu{float: left;}
+.topmenu li{float: left; border-bottom: none; list-style: none;}
+.topmenu a{line-height: 39px; color: white; padding: 15px 16px; display: block; text-decoration: none;}
+.divHeader{width: 1170px; margin: 0 auto;}
+.clearfix{content: '';display: block;clear: both;}
+
+.background{ float: left; position: fixed;}
+.backgroundp{float: left; position: fixed; top: 75px; left: 0;}
+.backgroundp2{ position: relative; top: 110px; width: 100%; display: block; margin: 0 auto; border: 2px solid white;}
+.title{position: relative; top: 100px; display: block; margin: 0 auto;}
+.menufix{background-color:rgba(0, 0, 0, 0.5); height: 230px;}
+
+.startbutton{height: 200px; width: 200px; top: -100px; position: relative; display: block; margin: 0 auto; }
+.startbutton:hover{
+    cursor:pointer;
+    transform:scale(1.1);
+    
+    -o-transform:scale(1.1); 
+    -moz-transform:scale(1.1);
+    
+    -webkit-transform:scale(1.1);
+}
+.start{height: 380px; background-color: darkslategray; top: 110px; width: 1901px; left: 0; clear: both; border: 1px solid white;}
+.info1{float: left; height: 270px; width: 350px; margin: 15px; top: -100px; position: relative;}
+.info2{float: right; height: 270px; width: 350px; margin: 15px; top: -100px; position: relative;}
+.imgset{margin: 100px; padding: 0 15px; margin-left: 20px; margin-right: 20px;}
+
+.bodyV{height: 800px; width: 1901px; background-color: whitesmoke;position: relative; top: 92px; clear: both;}
+
+
+
+
+
+.bodymenu{float: left; margin-left: 450px;}
+.bodymenu2{float: right; margin-right: 360px;}
+.bodymenu li{float: left; border-bottom: none; list-style: none; font-size:large;}
+.bodymenu2 li{float: left; border-bottom: none; list-style: none; font-size:large;}
+.bodymenu a{line-height: 25px; color:white ; padding: 15px 40px; display: block; text-decoration: none;}
+.bodymenu2 a{line-height: 25px; color:white ; padding: 15px 40px; display: block; text-decoration: none;}
+
+.endline{height: 80px; width: 1901px; background-color: darkcyan; position: relative; top: 92px;}
+.schoollogo{position: relative; top: 150px; margin: 0 auto; display: block;}
+.end{height: 400px; width: 1901px; background-color: black; position: relative; top: 92px;}
+.end p{top: 100px; text-align: center; width: 100%; position: relative;}

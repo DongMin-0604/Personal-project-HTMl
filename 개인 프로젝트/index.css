@@ -1,0 +1,30 @@
+*{margin: 0; padding:0;}
+
+body{
+    padding: 10px;
+    background-color:wheat;
+}
+
+header{
+    padding: 5px;
+}
+header a{text-decoration: none;}
+
+nav ul{
+    list-style: none;
+    border-top: 1px solid skyblue;
+    border-bottom: 1px solid skyblue;
+    text-align:  center;
+}
+
+nav ul li{
+    display: inline;
+    letter-spacing: .3em;
+    margin-left: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 3em;
+}

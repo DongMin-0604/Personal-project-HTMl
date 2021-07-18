@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>20208-신동민</title>
+
+    <style>
+        #container{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #aside{
+            float: left;
+            margin-left: 300px;
+        }
+        #section{
+            float: left;
+            text-align: left;
+        }
+        sup{
+            color: red;
+        }
+        label{
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header id="header" style="margin-bottom: 30px;">
+            <h2>회원가입 화면</h2>
+            <p>아래의 정보를 입력하여 회원가입을 완료해주세요.</p>
+        </header>
+
+        <aside id="aside">
+            <img src="고양이1.jpg" style="width: 100px; height: 100px;">
+            <br>
+            <input type="file">
+        </aside>
+
+        <section id="section">
+            <form>
+            <label for="id_input">아이디<sup>*</sup></label>
+            <br>
+            <input type="text" id="id_input" style="width: 300px;height: 30px;" required>
+            <br>
+            <label for="id_password">비밀번호<sup>*</sup></label>
+            <br>
+            <input type="password" id="id_password" style="width: 300px;height: 30px;" required>
+            <br>
+            <label for="id_password2">비밀번호 재확인<sup>*</sup></label>
+            <br>
+            <input type="password" id="id_password2" style="width: 300px;height: 30px;" required>
+            <br>
+            <label for="id_input2">이름<sup>*</sup></label>
+            <br>
+            <input type="text" id="id_input2" style="width: 300px;height: 30px;" required>
+            <br>
+            <label for="id_num">생년월일<sup>*</sup></label>
+            <br>
+            <input type="number" id="id_num" style="width: 180px;height: 30px;" placeholder="년(4자리)" required>
+            <select name="month" style="height: 33px;">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <input type="number" id="id_num2" style="width: 60px;height: 30px;" placeholder="일" required>
+            <br>
+            <label for="id_man">성별<sup>*</sup></label>
+            <br>
+            <select name="man" style="height: 33px; width: 300px;" required>
+                <option value="none">성별</option>
+                <option value="mon">남자</option>
+                <option value="woman">여자</option>
+            </select>
+            <br>
+            <label for="id_email">본인 확인 이메일</label>
+            <br>
+            <input type="email" id="id_email" style="width: 300px; height: 30px;" placeholder="선택입력">
+            <br>
+            <br>
+            <input type="submit" style="width: 350px; height: 40px;" value="가입하기">
+        </form>
+        </section>
+    </div>
+</body>
+</html>

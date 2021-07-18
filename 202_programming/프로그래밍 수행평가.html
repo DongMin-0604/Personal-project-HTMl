@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @importurl('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+        #container{
+                margin: 10px auto;
+                width: 1800px;
+}
+            #header{
+            font-family: 'Jua', sans-serif;
+            font-size: 35px;
+            text-align: right;
+        }
+         h1{
+            text-align: center;
+            font-size: 50px;
+        }
+         #navigation{
+            margin: 10px auto;
+        }
+         #navigation ul{
+            background-color: black;
+            text-align: center;
+            list-style-type: none;
+        }
+         #navigation ul li{
+            padding: 0 100px;
+            display: inline-block;
+        }
+         a{
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+        }
+         #side1{
+            width: 600px;
+            height: 600px;
+            text-align: center;
+            float: left;
+        }
+         .image1{
+            border-radius: 45px;
+            margin-top: 50px;
+            width: 500px;
+            height: 500px;
+        }
+         #contents1{
+            width: 1200px;
+            height: 230px;
+            text-align: center;
+            font-size: 30px;
+            float: left;
+        }
+         th{
+            font-family: 'Jua', sans-serif;
+            border: 1px dashed cornflowerblue;
+        }
+         td{
+            font-family: 'Jua', sans-serif;
+            border: 2px dotted crimson;
+        }
+         #contents2{
+            width: 1200px;
+            height: 370px;
+            float: left;
+        }
+         #footer{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            font-size: 15px;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <h1>수행평가 연습</h1>
+            <p>20208-신동민</p>
+        </header>
+        <nav id="navigation">
+            <ul>
+                <li><a href="https://www.naver.com/">NAVER 바로가기</a></li>
+                <li><a href="http://sangilmedia.sen.hs.kr/index.do">상미고 바로가기</a></li>
+            </ul>
+        </nav>
+        <aside id="side1">
+            <img src="backgroundimage.jpg" class="img1" alt="배경사진">
+        </aside>
+        <section id="contents1">
+            <table>
+                <tr>
+                    <th>이름</th>
+                    <td colspan="3">홍 길 동</td>
+                </tr>
+                <tr>
+                    <th>학교</th>
+                    <td colspan="3">상일미디어고등학교</td>
+                </tr>
+                <tr>
+                    <th>학년</th>
+                    <td>2</td>
+                    <th>반</th>
+                    <td>2</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contents2">
+            <form action="">
+                <fieldset style="font-size: 30px; position: relative; top: 15px; font-family:'Jua', sans-serif;">
+                    <textarea cols="110" rows="9" placeholder="스소과 지원이유..."
+                                style="font-size: 20px; font-family: 'Jua', sans-serif;">
+                    </textarea>
+                    <br><br>
+                    <input type="submit" style="font-size: 20px; position: absolute; right: 50px; bottom: 15px;
+                    font-family: 'Jua', sans-serif;">
+                </fieldset>
+            </form>
+        </section>
+        <footer id="footer">
+            <hr>
+            <p>상일미디어고등학교 스마트소프트웨어과</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

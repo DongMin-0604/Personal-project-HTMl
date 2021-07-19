@@ -163,6 +163,7 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+
 /* legend,caption,메뉴제목,섹션제목 블라인드 */
 .blind,
 caption,
@@ -184,7 +185,6 @@ legend {
 body {
     font-family: "nexon gothic", "MalgunGothic", "맑은 고딕", "nexon bold", "Apple SD Gothic Neo", "dotum", "돋움", Helvetica, sans-serif;
     font-size: 16px;
-    color: #9fa1a7;
 }
 body,
 html {
@@ -301,6 +301,44 @@ body.on {
     font-family: "nexon bold";
     line-height: 38px;
 }
+/*main_header 영역 Css*/
+#main{
+    background-color: #888;
+    background-image: linear-gradient(45deg, #444 25%, transparent 25%, transparent 75%, #444 75%, #444), linear-gradient(-45deg, #444 25%, transparent 25%, transparent 75%, #444 75%, #444);
+    background-size: 25px 25px;
+
+}
+#main_header {
+    clear: both;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(00, 00, 00, 0.8);
+    text-align: center;
+}
+#main_header > h2{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-right: 350px;
+    font-family: "nexon bold";
+}
+#main_header > p{
+    color: white;
+    font-size: 1.4em;
+    font-weight: normal;
+    white-space: nowrap;
+    margin-right: 350px;
+    margin-top: 90px;
+    font-family: "nexon gothic";
+}
+#main_header > img{
+    height: 220px;
+    margin: 70px 0 0 500px;
+    float: left;
+    padding-right: 50px;
+}
+
 
 /*footer 영역 Css*/
 #footer {

@@ -340,9 +340,221 @@ body.on {
     padding-right: 50px;
 }
 /*CARD_INFO 영역 CSS*/
-#card_info{
+#card_info {
+    width: 100%;
     height: 1000px;
-    background-color: wheat;
+    background-color: #FAC87D;
+}
+#card_info img {
+    width: 200px;
+    height: 250px;
+}
+#BeastHunter_info,
+#Fighter_info,
+#FireMage_info,
+#Hammer_info,
+#HighPriest_info,
+#Lancer_info,
+#Priest_info,
+#Shielder_info,
+#SwordMan_info,
+#Wizard_info {
+    margin: 50px 15px 0 30px;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+
+}
+#Assassin_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Assassin_info:hover div{
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Assassin_info:hover div p{
+    color: #fff;
+}
+
+#BeastHunter_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#BeastHunter_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#BeastHunter_info:hover div p{
+    color: #fff;
+}
+
+#Fighter_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Fighter_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Fighter_info:hover div p{
+    color: #fff;
+}
+
+#FireMage_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#FireMage_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#FireMage_info:hover div p{
+    color: #fff;
+}
+
+#Hammer_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Hammer_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Hammer_info:hover div p{
+    color: #fff;
+}
+
+#HighPriest_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#HighPriest_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#HighPriest_info:hover div p{
+    color: #fff;
+}
+
+#Lancer_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Lancer_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Lancer_info:hover div p{
+    color: #fff;
+}
+
+#Priest_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Priest_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Priest_info:hover div p{
+    color: #fff;
+}
+
+#Shielder_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Shielder_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Shielder_info:hover div p{
+    color: #fff;
+}
+
+#SwordMan_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#SwordMan_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#SwordMan_info:hover div p{
+    color: #fff;
+}
+
+#Wizard_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Wizard_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Wizard_info:hover div p{
+    color: #fff;
+}
+
+#Outlaw_info:hover img {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+}
+#Outlaw_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+#Outlaw_info:hover div p{
+    color: #fff;
+}
+
+#Outlaw_info {
+    margin: 50px 15px 0 390px;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+#Assassin_info {
+    margin: 50px 15px 0 150px;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+#info_text {
+    background-color: #222426;
+}
+#info_text p {
+    font-size: 20px;
+    color: rgb(143, 140, 140);
+    font-family: "nexon gothic";
 }
 
 /*footer 영역 Css*/

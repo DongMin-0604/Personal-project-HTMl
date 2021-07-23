@@ -352,201 +352,254 @@ body.on {
 #BeastHunter_info,
 #Fighter_info,
 #FireMage_info,
-#Hammer_info,
 #HighPriest_info,
+#Knight_info,
 #Lancer_info,
 #Priest_info,
-#Shielder_info,
 #SwordMan_info,
-#Wizard_info {
-    margin: 50px 15px 0 30px;
+#Wizard_info,
+#BraveHeart_info,
+#Dr_info,
+#Outlaw_info{
+    margin: 65px 15px 0 30px;
     float: left;
     text-align: center;
     width: 200px;
     height: 250px;
 
 }
+#Hammer_info,#Assassin_info,#Shielder_info {
+    margin: 65px 15px 0 220px;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
 #Assassin_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Assassin_info:hover div{
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Assassin_info:hover div p{
+    color: #fff;
+    
+}
+
+#BraveHeart_info:hover img {
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+#BraveHeart_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+#BraveHeart_info:hover div p{
+    color: #fff;
+}
+
+#Dr_info:hover img {
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+#Dr_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+#Dr_info:hover div p{
     color: #fff;
 }
 
 #BeastHunter_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #BeastHunter_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #BeastHunter_info:hover div p{
     color: #fff;
 }
 
 #Fighter_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Fighter_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Fighter_info:hover div p{
     color: #fff;
 }
 
 #FireMage_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #FireMage_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #FireMage_info:hover div p{
     color: #fff;
 }
 
 #Hammer_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Hammer_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Hammer_info:hover div p{
     color: #fff;
 }
 
 #HighPriest_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #HighPriest_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #HighPriest_info:hover div p{
     color: #fff;
 }
 
-#Lancer_info:hover img {
-    transform: scale(1.01);
+#Knight_info:hover img {
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+#Knight_info:hover div {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+#Knight_info:hover div p{
+    color: #fff;
+}
+
+#Lancer_info:hover img {
+    transition: transform 0.2s;
+    cursor: pointer;
+    filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Lancer_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Lancer_info:hover div p{
     color: #fff;
 }
 
 #Priest_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Priest_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Priest_info:hover div p{
     color: #fff;
 }
 
 #Shielder_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Shielder_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Shielder_info:hover div p{
     color: #fff;
 }
 
 #SwordMan_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #SwordMan_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #SwordMan_info:hover div p{
     color: #fff;
 }
 
 #Wizard_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Wizard_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Wizard_info:hover div p{
     color: #fff;
 }
 
 #Outlaw_info:hover img {
-    transform: scale(1.01);
     transition: transform 0.2s;
     cursor: pointer;
     filter: none;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Outlaw_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
+    box-shadow: 0.5px 0.5px 5px black;
 }
 #Outlaw_info:hover div p{
     color: #fff;
-}
-
-#Outlaw_info {
-    margin: 50px 15px 0 390px;
-    float: left;
-    text-align: center;
-    width: 200px;
-    height: 250px;
-}
-#Assassin_info {
-    margin: 50px 15px 0 150px;
-    float: left;
-    text-align: center;
-    width: 200px;
-    height: 250px;
 }
 #info_text {
     background-color: #222426;

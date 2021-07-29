@@ -111,11 +111,12 @@ header{height: 42px; background-color: black; border: 1px solid black;
         z-index: 9997;      
     }
     .bodymenu > li{
-        float: left; list-style: none; font-size: 1.2em;
+        float: left; list-style: none;
+        font-size: 1.2em;
         font-family: 'Noto Serif KR', serif;
         font-weight: bolder;
-        padding: 30px 40px; display: block;
-        
+        padding: 30px 40px; 
+        display: block;
     }
     .bodymenu > li > a{
         text-decoration: none;

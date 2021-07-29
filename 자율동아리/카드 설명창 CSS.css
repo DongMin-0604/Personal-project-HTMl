@@ -106,6 +106,7 @@ ol,
 ul {
     list-style: none;
 }
+
 /* 태그 기본 기울임꼴 제거 */
 address,
 em {
@@ -343,8 +344,93 @@ body.on {
 /*CARD_INFO 영역 CSS*/
 #card_info {
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     background-color: #FAC87D;
+    overflow: hidden;
+    
+}
+#border_div{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 1500px;
+    display: block; 
+    border: 1px solid black;
+}
+#category_Tap{
+    width: 452px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 50px;
+    border-right: 1px solid black;
+}
+ul {
+    margin: 0;
+    padding: 0; 
+}
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+#category_Tap > li.all > a{
+    left: 0;
+    margin-left: 0px;
+    width: 90px;
+    background-color: #c02f2f;
+}
+#category_Tap > li.nomal > a{
+    left: 90px;
+    background-color: white;
+}
+#category_Tap > li.special > a{
+    left: 180px;
+    background-color: white;
+}
+#category_Tap > li.great > a{
+    left: 270px;
+    background-color: white;
+}
+#category_Tap > li.legendary > a{
+    left: 360px;
+    background-color: white;
+}
+#category_Tap > li > a{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 8px;    
+    top: 0;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    display: block; 
+    border: 1px solid black;
+}
+.all a{
+    color: white;
+    transition: 0.2s;
+}
+#category_Tap li:not(.all) a {
+    color: gray;
+    transition: 0.2s;
+}
+#category_Tap li:not(.all) a:hover {
+    color: white;
+    transition: 0.2s;
+    background-color: #c02f2f;
+}
+#One{
+    margin-top: 0px;
+    border: none;
+    border: 1px solid black;
+}
+#rank_info{
+    height: 500px;
 }
 #card_info img {
     width: 200px;
@@ -352,7 +438,7 @@ body.on {
 }
 #BeastHunter_info,
 #Fighter_info,
-#FireMage_info,
+#Hammer_info,
 #HighPriest_info,
 #Knight_info,
 #Lancer_info,
@@ -361,16 +447,16 @@ body.on {
 #Wizard_info,
 #BraveHeart_info,
 #Dr_info,
-#Outlaw_info{
-    margin: 65px 15px 0 30px;
+#Shielder_info{
+    margin: 40px 15px 0px 0px;
     float: left;
     text-align: center;
     width: 200px;
     height: 250px;
 
 }
-#Hammer_info,#Assassin_info,#Shielder_info {
-    margin: 65px 15px 0 220px;
+#FireMage_info,#Assassin_info,#Outlaw_info {
+    margin: 40px 15px 0px 130px;
     float: left;
     text-align: center;
     width: 200px;
@@ -378,7 +464,7 @@ body.on {
 }
 
 #Assassin_info:hover img {
-    transition: transform 0.2s;
+    transition: 0.2s;
     cursor: pointer;
     filter: none;
     box-shadow: 0.5px 0.5px 5px black;

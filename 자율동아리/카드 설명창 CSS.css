@@ -12,6 +12,7 @@
     src: url("../font/nexon_goithic.eot");
     src: url("../font/nexon_goithic.eot?#iefix") format("embedded-opentype"), url("../font/nexon_goithic.woff") format("woff"), url("../font/nexon_goithic.ttf") format("truetype");
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 a,
 address,
 article,
@@ -320,23 +321,28 @@ body.on {
     font-size: 3em;
     font-weight: bold;
     white-space: nowrap;
-    margin-right: 350px;
+    margin-right: 290px;
     margin-top: 50px;
     font-family: "nexon bold";
     display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#main_header > #Test{
+    white-space: nowrap;
+    margin-right: 230px;
+    margin-top: 10px;
 }
 #main_header > p {
     color: white;
-    font-size: 1.4em;
+    font-size: 28px;
     font-weight: normal;
     white-space: nowrap;
     margin-right: 350px;
     margin-top: 90px;
-    font-family: "nexon gothic";
 }
-#main_header > img {
+#main_header > #logo {
     height: 220px;
-    margin: 70px 0 0 500px;
+    margin: 70px 0 0 470px;
     float: left;
     padding-right: 50px;
 }
@@ -345,73 +351,81 @@ body.on {
 #card_info {
     width: 100%;
     height: 2000px;
-    background-color: #FAC87D;
+    background-color: #444;
     overflow: hidden;
-    
+
 }
-#border_div{
+#border_div {
     position: relative;
     overflow: hidden;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: 10px 300px;
     height: 1500px;
-    display: block; 
+    display: block;
     border: 1px solid black;
+    background-color: white;
 }
-#category_Tap{
-    width: 452px;
+#rank_info {
+    height: 300px;
+}
+#rank_info > h1 {
+    font-weight:bold; 
+    text-align:center; 
+    color: aqua;
+    font-size: 50px;
+}
+
+#category_Tap {
+    width: 100%;
     overflow: hidden;
     position: relative;
     display: block;
     height: 50px;
-    border-right: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 ul {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
-ul:after{
-    content:'';
+ul:after {
+    content: '';
     display: block;
-    clear:both;
+    clear: both;
 }
-#category_Tap > li.all > a{
+#category_Tap > li.all > a {
     left: 0;
-    margin-left: 0px;
+    margin-left: 0;
     width: 90px;
     background-color: #c02f2f;
 }
-#category_Tap > li.nomal > a{
+#category_Tap > li.nomal > a {
     left: 90px;
     background-color: white;
 }
-#category_Tap > li.special > a{
+#category_Tap > li.special > a {
     left: 180px;
     background-color: white;
 }
-#category_Tap > li.great > a{
+#category_Tap > li.great > a {
     left: 270px;
     background-color: white;
 }
-#category_Tap > li.legendary > a{
+#category_Tap > li.legendary > a {
     left: 360px;
     background-color: white;
 }
-#category_Tap > li > a{
+#category_Tap > li > a {
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    padding-top: 8px;    
+    padding-top: 8px;
     top: 0;
     width: 90px;
     height: 40px;
     text-align: center;
-    display: block; 
+    display: block;
     border: 1px solid black;
 }
-.all a{
+.all a {
     color: white;
     transition: 0.2s;
 }
@@ -424,39 +438,37 @@ ul:after{
     transition: 0.2s;
     background-color: #c02f2f;
 }
-#One{
-    margin-top: 0px;
+#One {
     border: none;
     border: 1px solid black;
-}
-#rank_info{
-    height: 300px;
 }
 #card_info img {
     width: 200px;
     height: 250px;
 }
 #BeastHunter_info,
+#BraveHeart_info,
+#Dr_info,
 #Fighter_info,
 #Hammer_info,
 #HighPriest_info,
 #Knight_info,
 #Lancer_info,
 #Priest_info,
+#Shielder_info,
 #SwordMan_info,
-#Wizard_info,
-#BraveHeart_info,
-#Dr_info,
-#Shielder_info{
-    margin: 40px 15px 0px 0px;
+#Wizard_info {
+    margin: 40px 15px 0 0;
     float: left;
     text-align: center;
     width: 200px;
     height: 250px;
 
 }
-#FireMage_info,#Assassin_info,#Outlaw_info {
-    margin: 40px 15px 0px 130px;
+#Assassin_info,
+#FireMage_info,
+#Outlaw_info {
+    margin: 40px 15px 0 130px;
     float: left;
     text-align: center;
     width: 200px;
@@ -469,14 +481,14 @@ ul:after{
     filter: none;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Assassin_info:hover div{
+#Assassin_info:hover div {
     transform: scale(1.01);
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Assassin_info:hover div p{
+#Assassin_info:hover div p {
     color: #fff;
-    
+
 }
 
 #BraveHeart_info:hover img {
@@ -490,7 +502,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#BraveHeart_info:hover div p{
+#BraveHeart_info:hover div p {
     color: #fff;
 }
 
@@ -505,7 +517,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Dr_info:hover div p{
+#Dr_info:hover div p {
     color: #fff;
 }
 
@@ -520,7 +532,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#BeastHunter_info:hover div p{
+#BeastHunter_info:hover div p {
     color: #fff;
 }
 
@@ -535,7 +547,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Fighter_info:hover div p{
+#Fighter_info:hover div p {
     color: #fff;
 }
 
@@ -550,7 +562,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#FireMage_info:hover div p{
+#FireMage_info:hover div p {
     color: #fff;
 }
 
@@ -565,7 +577,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Hammer_info:hover div p{
+#Hammer_info:hover div p {
     color: #fff;
 }
 
@@ -580,7 +592,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#HighPriest_info:hover div p{
+#HighPriest_info:hover div p {
     color: #fff;
 }
 
@@ -595,7 +607,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Knight_info:hover div p{
+#Knight_info:hover div p {
     color: #fff;
 }
 
@@ -610,7 +622,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Lancer_info:hover div p{
+#Lancer_info:hover div p {
     color: #fff;
 }
 
@@ -625,7 +637,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Priest_info:hover div p{
+#Priest_info:hover div p {
     color: #fff;
 }
 
@@ -640,7 +652,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Shielder_info:hover div p{
+#Shielder_info:hover div p {
     color: #fff;
 }
 
@@ -655,7 +667,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#SwordMan_info:hover div p{
+#SwordMan_info:hover div p {
     color: #fff;
 }
 
@@ -670,7 +682,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Wizard_info:hover div p{
+#Wizard_info:hover div p {
     color: #fff;
 }
 
@@ -685,7 +697,7 @@ ul:after{
     transition: transform 0.2s;
     box-shadow: 0.5px 0.5px 5px black;
 }
-#Outlaw_info:hover div p{
+#Outlaw_info:hover div p {
     color: #fff;
 }
 #info_text {

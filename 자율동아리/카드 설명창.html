@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <title>마왕잡는매니저-카드설명창</title>
         <link rel="stylesheet" href="카드 설명창 CSS.css">
-
     </head>
     <body>
         <!-- 헤더 -->
@@ -31,9 +30,9 @@
             <div id="main_header">
                 <img src="img/logo.png" alt="로고 불러오는 중" id="logo">
                 <h2>카드 소개</h2>
-                <img src="img/테스트.png" alt="카드 설명" id="Test">
-                <!-- <p>마왕잡는 매니저의 용사카드는 10가지 직업 중 하나를 가지며<br>
-                    각 직업마다 고유한 스킬(패시브)을 가집니다.</p> -->
+                <!-- <img src="img/테스트.png" alt="카드 설명" id="Test"> -->
+                <p>마왕잡는 매니저의 용사카드는 10가지 직업 중 하나를 가지며<br>
+                    각 직업마다 고유한 스킬(패시브)을 가집니다.</p>
             </div>
             <!-- 콘텐츠 부분 -->
             <div id="card_info">
@@ -42,37 +41,20 @@
                     <div id="rank_info">
                         <h1>등급 설명 부분입니다.</h1>
                     </div>
-                    
-                     <!-- 등급 카테고리 -->
-                     <ul id="category_Tap">
-                        <li class="all">
-                            <a href="#none">전체</a>
-                        </li>
-                        <li class="nomal">
-                            <a href="#none">평범한</a>
-                        </li>
-                        <li class="special">
-                            <a href="#none">특별한</a>
-                        </li>
-                        <li class="great">
-                            <a href="#none">위대한</a>
-                        </li>
-                        <li class="legendary">
-                            <a href="#none">전설적인</a>
-                        </li>
-                    </ul>
-                    <!-- <hr id="One"> -->
+                    <hr id="One">
                     <div id="Assassin_info">
-                        <a href="#"><img src="img/Assassin001.png" alt="http://placehold.it/200x250" id="img1"/></a>
+                        <a href="javascript:doDisplay();"><img src="img/Assassin001.png" alt="http://placehold.it/200x250" id="img1"/></a>
                         <div id="info_text">
                             <p>암살자</p>
                         </div>
                     </div>
-
+                    <div id="Assassin_info_T">
+                            
+                    </div>
                     <div id="BeastHunter_info">
                         <a href="#"><img src="img/BeastHunter.png" alt="http://placehold.it/200x250"/></a>
                         <div id="info_text">
-                            <p>사냥꾼</p>
+                            <p>궁수</p>
                         </div>
                     </div>
 
@@ -93,14 +75,14 @@
                     <div id="Fighter_info">
                         <a href="#"><img src="img/Fighter.png" alt="http://placehold.it/200x250"/></a>
                         <div id="info_text">
-                            <p>무도가</p>
+                            <p>격투가</p>
                         </div>
                     </div>
 
                     <div id="FireMage_info">
                         <a href="#"><img src="img/FireMage.png" alt="http://placehold.it/200x250"/></a>
                         <div id="info_text">
-                            <p>화염 마법사</p>
+                            <p>마법사</p>
                         </div>
                     </div>
 
@@ -142,7 +124,7 @@
                     <div id="Priest_info">
                         <a href="#"><img src="img/Priest.png" alt="http://placehold.it/200x250"/></a>
                         <div id="info_text">
-                            <p>수녀</p>
+                            <p>사제</p>
                         </div>
                     </div>
 
@@ -163,7 +145,7 @@
                     <div id="Wizard_info">
                         <a href="#"><img src="img/Wizard.png" alt="http://placehold.it/200x250"/></a>
                         <div id="info_text">
-                            <p>깨우친 현자</p>
+                            <p>마법사</p>
                         </div>
                     </div>
                 </div>
@@ -262,5 +244,6 @@
                     <span class="bottom_logo">상미고</span></a>
             </div>
         </footer>
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>

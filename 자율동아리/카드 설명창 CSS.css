@@ -373,15 +373,6 @@ body.on {
     color: aqua;
     font-size: 50px;
 }
-
-#category_Tap {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    height: 50px;
-    border-bottom: 1px solid gray;
-}
 ul {
     margin: 0;
     padding: 0;
@@ -390,53 +381,6 @@ ul:after {
     content: '';
     display: block;
     clear: both;
-}
-#category_Tap > li.all > a {
-    left: 0;
-    margin-left: 0;
-    width: 90px;
-    background-color: #c02f2f;
-}
-#category_Tap > li.nomal > a {
-    left: 90px;
-    background-color: white;
-}
-#category_Tap > li.special > a {
-    left: 180px;
-    background-color: white;
-}
-#category_Tap > li.great > a {
-    left: 270px;
-    background-color: white;
-}
-#category_Tap > li.legendary > a {
-    left: 360px;
-    background-color: white;
-}
-#category_Tap > li > a {
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    padding-top: 8px;
-    top: 0;
-    width: 90px;
-    height: 40px;
-    text-align: center;
-    display: block;
-    border: 1px solid black;
-}
-.all a {
-    color: white;
-    transition: 0.2s;
-}
-#category_Tap li:not(.all) a {
-    color: gray;
-    transition: 0.2s;
-}
-#category_Tap li:not(.all) a:hover {
-    color: white;
-    transition: 0.2s;
-    background-color: #c02f2f;
 }
 #One {
     border: none;
@@ -458,7 +402,7 @@ ul:after {
 #Shielder_info,
 #SwordMan_info,
 #Wizard_info {
-    margin: 40px 15px 0 0;
+    margin: 50px 15px 0 0;
     float: left;
     text-align: center;
     width: 200px;
@@ -468,13 +412,21 @@ ul:after {
 #Assassin_info,
 #FireMage_info,
 #Outlaw_info {
-    margin: 40px 15px 0 130px;
+    margin: 50px 15px 0 130px;
     float: left;
     text-align: center;
     width: 200px;
     height: 250px;
 }
-
+#Assassin_info_T{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    clear: both;
+    display: none;
+    margin-top: 340px;
+    position: absolute;
+}
 #Assassin_info:hover img {
     transition: 0.2s;
     cursor: pointer;

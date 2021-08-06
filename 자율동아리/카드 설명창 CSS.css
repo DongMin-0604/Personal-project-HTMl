@@ -373,6 +373,9 @@ body.on {
     color: aqua;
     font-size: 50px;
 }
+#rank_img{
+    margin-left: 5px;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -386,7 +389,7 @@ ul:after {
     border: none;
     border: 1px solid black;
 }
-#card_info img {
+#card_info img:not(#rank_img) {
     width: 200px;
     height: 250px;
 }

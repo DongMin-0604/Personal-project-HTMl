@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn_textarea_copy">textarea 전체 복사하기</button><br> 
+    <textarea id="textArea">이동동인</textarea><br><br><br>
+
+</body>
+<script>
+    document.getElementById("btn_textarea_copy").onclick = function(){ 
+    const textArea = document.getElementById("textArea"); 
+    textArea.select(); document.execCommand('copy');
+    }
+</script>
+</html>

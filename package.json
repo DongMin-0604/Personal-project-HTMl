@@ -1,0 +1,23 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DongMin-0604/Personal-project-HTMl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DongMin-0604/Personal-project-HTMl/issues"
+  },
+  "homepage": "https://github.com/DongMin-0604/Personal-project-HTMl#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase": "^9.8.4"
+  }
+}
